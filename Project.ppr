@@ -1,0 +1,225 @@
+[Config]
+Relative path=1
+Compilator.FileName=make
+Compilator.PSPar=
+Compilator.Log=
+Compilator.Run=
+Compilator.DefaultDir=
+Compilator.SaveAll=1
+Compilator.Capture=1
+Compilator.ParsLog=%F:%L:
+Compilator.HideOutput=1
+Prog1=
+Prog2=
+Prog3=
+Prog4=
+Prog5=
+DefaultDir=
+DefaultCPIndex=0
+LogtoEnd=1
+DontOpen=0
+FileFormat=0
+DocumentRoot=
+HTServer=
+[Project tree]
+Project
+	+Files
+		+includes
+			..\ports\armboard3.h
+			includes.h
+			..\ports\LPC214x.h
+		+compile
+			config.h
+			crt0.s
+			main.c
+			main.h
+			mutex.c
+			os_cfg.h
+			..\ports\bsp.h
+		-ports
+			-drivers
+				..\ports\drivers\buzzer.c
+				..\ports\drivers\buzzer.h
+				..\ports\drivers\delay.c
+				..\ports\drivers\delay.h
+				..\ports\drivers\err.h
+				..\ports\drivers\exceptions.c
+				..\ports\drivers\exceptions.h
+				..\ports\drivers\keys.c
+				..\ports\drivers\keys.h
+				..\ports\drivers\lcd.c
+				..\ports\drivers\lcd.h
+				..\ports\drivers\leds.c
+				..\ports\drivers\leds.h
+				..\ports\drivers\pll.c
+				..\ports\drivers\pll.h
+				..\ports\drivers\print.c
+				..\ports\drivers\print.h
+				..\ports\drivers\spi.c
+				..\ports\drivers\spi.h
+				..\ports\drivers\timer.c
+				..\ports\drivers\timer.h
+				..\ports\drivers\uart.c
+				..\ports\drivers\uart.h
+				..\ports\drivers\vic.c
+				..\ports\drivers\vic.h
+			..\ports\bsp.c
+			..\ports\os_cpu.h
+			..\ports\os_cpu_c.c
+			..\ports\os_cpu_c-dbg.c
+			..\ports\os_dbg.c
+		+others
+			Makefile
+			Project.x
+[Open project files]
+0=Makefile
+1=crt0.s
+2=main.c
+3=..\ports\LPC214x.h
+4=..\uc-source\os_mem.c
+5=main.h
+6=..\ports\drivers\buzzer.c
+7=mutex.c
+8=includes.h
+9=..\ports\armboard3.h
+10=..\ports\os_cpu.h
+11=..\ports\os_cpu_c.c
+12=..\ports\os_cpu_c-dbg.c
+13=..\ports\bsp.c
+14=..\ports\drivers\uart.c
+15=..\ports\drivers\vic.c
+16=..\ports\drivers\uart.h
+17=..\ports\drivers\delay.c
+18=..\ports\drivers\pll.c
+19=config.h
+20=os_cfg.h
+21=..\ports\drivers\delay.h
+22=..\ports\drivers\err.h
+23=..\ports\drivers\exceptions.h
+24=..\ports\drivers\keys.c
+25=..\ports\drivers\keys.h
+26=..\ports\drivers\lcd.c
+27=..\ports\drivers\leds.c
+28=..\ports\drivers\leds.h
+29=..\ports\drivers\pll.h
+30=..\ports\drivers\print.c
+31=..\ports\drivers\print.h
+32=..\ports\drivers\spi.c
+33=..\ports\drivers\spi.h
+34=..\ports\drivers\timer.h
+35=..\ports\bsp.h
+36=..\ports\drivers\exceptions.c
+[Selected Project Files]
+Main=crt0.s
+Selected=main.c
+[Makefile]
+TopLine=16
+Caret=1,44
+[crt0.s]
+TopLine=169
+Caret=18,218
+[main.c]
+TopLine=12
+Caret=31,34
+[..\ports\LPC214x.h]
+TopLine=366
+Caret=1,400
+[..\uc-source\os_mem.c]
+TopLine=75
+Caret=106,91
+[main.h]
+TopLine=1
+Caret=2,10
+[..\ports\drivers\buzzer.c]
+TopLine=1
+Caret=1,1
+[mutex.c]
+TopLine=6
+Caret=30,71
+[includes.h]
+TopLine=1
+Caret=1,32
+[..\ports\armboard3.h]
+TopLine=1
+Caret=1,1
+[..\ports\os_cpu.h]
+TopLine=63
+Caret=23,120
+[..\ports\os_cpu_c.c]
+TopLine=16
+Caret=1,20
+[..\ports\os_cpu_c-dbg.c]
+TopLine=164
+Caret=1,1
+[..\ports\bsp.c]
+TopLine=27
+Caret=1,92
+[..\ports\drivers\uart.c]
+TopLine=1
+Caret=23,36
+[..\ports\drivers\vic.c]
+TopLine=1
+Caret=20,16
+[..\ports\drivers\uart.h]
+TopLine=1
+Caret=3,20
+[..\ports\drivers\delay.c]
+TopLine=1
+Caret=3,14
+[..\ports\drivers\pll.c]
+TopLine=1
+Caret=9,29
+[config.h]
+TopLine=2
+Caret=21,18
+[os_cfg.h]
+TopLine=18
+Caret=17,18
+[..\ports\drivers\delay.h]
+TopLine=1
+Caret=1,1
+[..\ports\drivers\err.h]
+TopLine=1
+Caret=1,1
+[..\ports\drivers\exceptions.h]
+TopLine=1
+Caret=17,13
+[..\ports\drivers\keys.c]
+TopLine=1
+Caret=1,14
+[..\ports\drivers\keys.h]
+TopLine=1
+Caret=47,3
+[..\ports\drivers\lcd.c]
+TopLine=1
+Caret=1,1
+[..\ports\drivers\leds.c]
+TopLine=1
+Caret=1,1
+[..\ports\drivers\leds.h]
+TopLine=1
+Caret=1,1
+[..\ports\drivers\pll.h]
+TopLine=1
+Caret=1,1
+[..\ports\drivers\print.c]
+TopLine=1
+Caret=1,1
+[..\ports\drivers\print.h]
+TopLine=1
+Caret=1,1
+[..\ports\drivers\spi.c]
+TopLine=1
+Caret=1,1
+[..\ports\drivers\spi.h]
+TopLine=1
+Caret=1,1
+[..\ports\drivers\timer.h]
+TopLine=1
+Caret=1,1
+[..\ports\bsp.h]
+TopLine=1
+Caret=1,29
+[..\ports\drivers\exceptions.c]
+TopLine=5
+Caret=7,19
